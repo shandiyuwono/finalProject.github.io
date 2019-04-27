@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>Day Planner</title>
+    <link href = "./CSS/style.css" rel="stylesheet" text="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id = "logo">
+          <h1>AKTIV || Easy-to-use daily planner</h1>
+          <!-- <h2>Easy-to-use daily planner</h2> -->
+        </div>
+    </header>
+
+
+    <main>
+        <div id = "input">
+            <div id = "inputAct">
+                <input type= "text" placeholder= "Input your tasks here (maximum 50 characters)" value = "" id = "activity">
+
+                 <div id = "button">
+                    <input type = "button" value = "Submit" id = "submit">
+                    <input type = "button" value = "Clear" id = "clear">
+                </div>
+            </div>
+        </div>
+        
+        <div id = "result">
+            
+            <div id ="outputTitle">
+                    <h1>Your Tasks</h1>
+            </div>
+
+            <div id = "output">
+        
+                <ul id = "inside">
+                    
+                </ul>    
+            </div>
+
+            <div id = "outputButton">
+                <input type = "button" value = "Clear All Tasks" id = "clearOutput">
+                <div id = "counter">
+                    <p>Completed Tasks: </p>
+                    <p id = "leftCounter">0</p>
+                    <p>/</p>
+                    <p id = "rightCounter">0</p>
+                </div>
+    
+                <!-- <ul id = "counter">
+                    <li><p>Completed Tasks: </p></li>
+                    <li id = "leftCounter"><p>0</p></li>
+                    <li><p>/</p></li>
+                    <li id = "rightCounter"><p>0</p></li>
+        
+                </ul> -->
+            </div>
+            <script src = "JS/script.js"></script>
+        </div>
+
+    </main>
+</body>
+
+
+</html>
